@@ -9,7 +9,7 @@ High churn rates can indicate dissatisfaction with the product or service, poor 
 
 Understanding the factors driving churn enables organizations to take proactive steps toward customer retention.
 
-● The goal of this project is to:
+The goal of this project is to:
 
 ● Explore customer behavior through EDA
 
