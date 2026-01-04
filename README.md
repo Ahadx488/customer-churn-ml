@@ -7,9 +7,19 @@ This project focuses on Exploratory Data Analysis (EDA) and modeling to uncover 
 Customer churn, also known as customer attrition, refers to the phenomenon where customers stop doing business with a company or service. It is a critical metric for businesses as it directly impacts revenue and profitability. 
 High churn rates can indicate dissatisfaction with the product or service, poor customer experience.
 
+Understanding the factors driving churn enables organizations to take proactive steps toward customer retention.
+
+● The goal of this project is to:
+
+● Explore customer behavior through EDA
+
+● Identify key churn-driving features
+
+● Build and evaluate multiple classification models to predict churn
+
 ## Dataset
 
-The dataset used in this project is [Data Source](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction/data).
+This project uses the Credit Card Customer Churn Prediction dataset from Kaggle: [Data Source](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction/data).
 
 It contains the following features: 
 
@@ -28,7 +38,9 @@ It contains the following features:
  13. EstimatedSalary
  14. Exited
 
-The main variables of interest is **Exited**.
+🎯 Target Variable:
+
+Exited → Indicates whether a customer has churned (1) or not (0)
 
 ## Requirements
 
@@ -39,12 +51,14 @@ The following libraries are required to run the notebook:
 - matplotlib
 - seaborn
 - scikit-learn
+- imbalanced-learn
+- xgboost
 
 ## Key Features
 
 1. Handling Imbalanced Data: The project implements techniques to help handle imbalanced data such as SMOTE, ensuring accurate predictions even when the dependent variable is underrepresented.
 2. Exploratory Data Analysis (EDA): The project features a stage of Exploratory Data Analysis (EDA), where we examine the data closely to identify trends and understand the reasons behind customer churn.
-3. Classification: The project employs a variety of models, including Logistic Regression, Random Forest, K-Nearest Neighbors, Support Vector Machine, XGBoost, and Gradient Boosting, to predict customer churn, with techniques such as class weighting and SMOTE used to handle class imbalance.
+3. Modeling & Classification: The project employs a variety of models, including Logistic Regression, Random Forest, K-Nearest Neighbors, Support Vector Machine, XGBoost, and Gradient Boosting, to predict customer churn, with techniques such as class weighting and SMOTE used to handle class imbalance.
 
 ## 📊 Model Performance Evaluation
 
